@@ -1,0 +1,210 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Icon -->
+  <link rel="shortcut icon" href="img/icon.ico" type="image/x-icon">
+  <!-- CSS  -->
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <title>Сайт портфолио</title>
+  <style>
+  .tabs .indicator {
+    background-color: #1a237e;
+  }
+
+  .tabs .tab a:focus, .tabs .tab a:focus.active{
+    background: transparent;
+  }
+  </style>
+</head>
+<body>
+
+  <!-- navbar -->
+  <header>
+    <nav class="nav-wrapper transparent">
+      <div class="container">
+        <a href="" class="brand-logo">Обо мне</a>
+        <a href="" class="sidenav-trigger" data-target="mobile-menu">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down topmenu">
+          <li><a href="main.html">Главная</a></li>
+          <li><a href="portfolio.html">Портфолио</a>
+            <ul class="submenu">
+              <li><a href="portfolio.html">Техническая документация</a></li>
+              <li><a href="portfolio.html">Компьютерная графика</a>
+                <ul class="submenu">
+                  <li><a href="portfolio.html">Растровая графика</a></li>
+                  <li><a href="portfolio.html">Векторная графика</a></li>
+                  <li><a href="portfolio.html">Инфографика</a></li>
+                </ul>
+              </li>
+              <li><a href="portfolio.html">Печатная продукция</a></li>
+              <li><a href="portfolio.html">Мультимедийные приложения</a></li>
+              <li><a href="portfolio.html">Сервисы интернета</a></li>
+              <li><a href="portfolio.html">Офисное оборудование</a></li>
+            </ul>
+          </li>
+          <li><a href="aboutme.html">Страничка об авторе</a></li>
+          <li><a href="#contact">Контакты</a></li>
+        </ul>
+        <ul class="sidenav grey lighten-2 topmenu" id="mobile-menu">
+          <li><a href="main.html">Главная</a></li>
+          <li><a href="portfolio.html">Портфолио</a>
+            <ul class="submenu">
+              <li><a href="portfolio.html">Техническая документация</a></li>
+              <li><a href="portfolio.html">Компьютерная графика</a>
+                <ul class="submenu">
+                  <li><a href="portfolio.html">Растровая графика</a></li>
+                  <li><a href="portfolio.html">Векторная графика</a></li>
+                  <li><a href="portfolio.html">Инфографика</a></li>
+                </ul>
+              </li>
+              <li><a href="portfolio.html">Печатная продукция</a></li>
+              <li><a href="portfolio.html">Мультимедийные приложения</a></li>
+              <li><a href="portfolio.html">Сервисы интернета</a></li>
+              <li><a href="portfolio.html">Офисное оборудование</a></li>
+            </ul>
+          </li>
+          <li><a href="aboutme.html">Страничка об авторе</a></li>
+          <li><a href="#contact">Контакты</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!-- photo / grid -->
+  <section class="container section">
+    <div class="row">
+      <div class="col s12 l4">
+        <img src="img/me.jpg" alt="мое фото" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 offset-l1">
+        <h4 class="indigo-text text-darken-4">Биография</h4>
+        <p>Меня зовут Радович Святослав, я родился 11 февраля 2003г в г. Чебоксары. На данный момент проживаю на улице Хузангая д.24, кв.705-706. В 7 лет начал ходить в школе №49, учился там до 9 класса, получил атестат и выпустился с несколькими тройками. После школы я начал задумываться о...</p>
+        <!-- Modal  -->
+        <div class="container left">
+          <a href="#terms-1" class="btn cyan modal-trigger">Узнать больше</a>
+          <div class="modal" id="terms-1">
+            <div class="modal-content">
+              <h4>Биография</h4>
+              <p>Меня зовут Радович Святослав, я родился 11 февраля 2003г в г. Чебоксары. На данный момент проживаю на улице Хузангая д.24, кв.705-706. В 7 лет начал ходить в школе №49, учился там до 9 класса, получил атестат и выпустился с несколькими тройками. После школы я начал задумываться о своем будущем и кем я буду работать. В самом начале, еще в далеком 2008г моя мама купила брату компьютер и с того самого момента я был заинтересован им. Ближе к 14 годам я наконц смог пользовться компьютером без ограничений по времени (Раньше я играл по 30мин в день) и стал проводить большее время сидя в интернете.</p>
+              <p>Мой интерес к программированию возник из-за моего лучшего друга Никиты. Он предложил мне посмотреть пару обучающих видео роликов на YouTube про html. Посмотрев один ролик мне показалось, что html достаточно легкий язык программирования, а зарплаты у программистов как мы знаем высокие и с этого момента мне захотелось делать деньги на сайтах. Далее я начал изучать Css и это было еще проще, я хотел писать простой код и делать легкие деньги</p>
+            </div>
+            <div class="modal-footer">
+              <a href="" class="modal-close btn cyan">Закрыть</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col s12 l4 push-l7 offset-l1">
+        <img src="img/i2.jpg" alt="code" class="responsive-img materialboxed" height="300" width="300" align="right">
+      </div>
+      <div class="col s12 l6 pull-l5 right-align offset-l1">
+        <h4 class="indigo-text text-darken-4">Первый сайт</h4>
+        <p>Мой первый сайт я написал на html и он был мягко говоря ужасен. Там не было никаких стилей, только слова Hello World! и все. Начав изучать стили я начал экспериментировать с цветами и стилями и мои сайты стали "оживать". Дизайн сайтов интересная вещь, но я хотел сделать его более адаптивным, а код сложнее и интереснее. С этого момента все поменялось..</p>
+        <!-- Modal  -->
+        <div class="container right">
+          <a href="#terms-2" class="btn cyan modal-trigger">Узнать больше</a>
+          <div class="modal" id="terms-2">
+            <div class="modal-content left-align">
+              <h4>Первый сайт</h4>
+              <p>Мой первый сайт я написал на html и он был мягко говоря ужасен. Там не было никаких стилей, только слова Hello World! и все. Начав изучать стили я начал экспериментировать с цветами и стилями и мои сайты стали "оживать". Дизайн сайтов интересная вещь, но я хотел сделать его более адаптивным, а код сложнее и интереснее. С этого момента все поменялось.</p>
+              <p>Я начал изучать JavaScript и сказать что было сложно, это скорее промолчать. Функции, логические операции на самом деле это все интересно, но роликов по этому было много и длились они по минут 25-30. Уходило все больше времени, а на тот момент я еще обучался в 9 классе и так же паралельно готовился к ОГЭ. Заходя все дальше и изучая все больше фреймов и библиотек я начал забывать некоторые основы, а заного смотреть все эти ролики было лень. Зарабатывать деньги на фрилансе было возможно, но с моими навыками заказов было настолько мало, что когда они появлялись за них сразу хватались несколько человек. После самого выпуска я перестал изучать Web-программирование и решил пустить всё на самотек; и вскоре я поступил в колледж МЦК-ЧЭМК.</p>
+            </div>
+            <div class="modal-footer">
+              <a href="" class="modal-close btn cyan">Закрыть</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col s12 l6 offset-l1">
+        <h4 class="indigo-text text-darken-4">Резюме</h4>
+        <img src="img/i3.png" alt="rez" class="responsive-img materialboxed">
+        <div class="container left">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- parallax -->
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="img/stars.jpg" alt="" class="responsive-img">
+    </div>
+  </div>
+  <!-- contact form -->
+  <section class="section-container" id="contact">
+    <div class="row">
+      <div class="col s12 l5">
+        <h2 class="indigo-text text-darken-4">Связаться со мной</h2>
+        <p>У вас есть возможность связаться со мной или написать свой отзыв или предложение по улучшению сайта.</p>
+      </div>
+      <div class="col s12 l5 offset-l2">
+        <form action="">
+          <div class="input-field">
+            <i class="material-icons prefix">email</i>
+            <input type="email" id="email">
+            <label for="email">Ваш email</label>
+          </div>
+          <div class="input-field">
+            <i class="material-icons prefix">message</i>
+            <textarea  id="message" class="materialize-textarea"></textarea>
+            <label for="message">Ваше сообщение</label>
+          </div>
+          <div class="input-field center">
+            <button class="btn">Разместить</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- footer -->
+  <footer class="page-footer grey darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 l6">
+          <h5>Кратко обо мне</h5>
+          <p>Меня зовут Радович Святослав, я студент 2 курса электромеханического колледжа. Обучаюсь на специальность Защитника информации. Разработанный мною сайт полностью адаптивен под все девайсы.</p>
+        </div>
+        <div class="col s12 l4 offset-l2">
+          <h5>Контакты</h5>
+          <ul>
+            <li><a href="https://vk.com/radovich79" class="grey-text text-lighten-3">VKontakte</a></li>
+            <li><p>Моя почта: hsrt248@gmail.com</p></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright grey darken-4">
+      <div class="container center-align">&copy; 2021 Разработчик: Радович Святослав</div>
+    </div>
+  </footer>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $(".sidenav").sidenav();
+      $(".modal").modal();
+      $(".materialboxed").materialbox();
+      $(".parallax").parallax();
+      $(".tabs").tabs();
+      $(".datepicker").datepicker({});
+    });
+
+  </script>
+</body>
+</html>

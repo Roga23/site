@@ -1,0 +1,414 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Icon -->
+  <link rel="shortcut icon" href="img/icon.ico" type="image/x-icon">
+  <!-- CSS  -->
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <title>Сайт портфолио</title>
+  <style>
+  .tabs .indicator {
+    background-color: #1a237e;
+  }
+
+  .tabs .tab a:focus, .tabs .tab a:focus.active{
+    background: transparent;
+  }
+  </style>
+</head>
+<body>
+
+  <!-- navbar -->
+  <header>
+    <nav class="nav-wrapper transparent">
+      <div class="container">
+        <a href="" class="brand-logo">Портфолио</a>
+        <a href="" class="sidenav-trigger" data-target="mobile-menu">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down topmenu">
+          <li><a href="main.html">Главная</a></li>
+          <li><a href="portfolio.html">Портфолио</a>
+            <ul class="submenu">
+              <li><a href="#tex">Техническая документация</a></li>
+              <li><a href="#graph">Компьютерная графика</a>
+                <ul class="submenu">
+                  <li><a href="#rastr">Растровая графика</a></li>
+                  <li><a href="#vek">Векторная графика</a></li>
+                  <li><a href="#inf">Инфографика</a></li>
+                </ul>
+              </li>
+              <li><a href="#pech">Печатная продукция</a></li>
+              <li><a href="#mult">Мультимедийные приложения</a></li>
+              <li><a href="#serv">Сервисы интернета</a></li>
+              <li><a href="#ofis">Офисное оборудование</a></li>
+            </ul>
+          </li>
+          <li><a href="aboutme.html">Страничка об авторе</a></li>
+          <li><a href="#contact">Контакты</a></li>
+        </ul>
+
+        <ul class="sidenav grey lighten-2 topmenu" id="mobile-menu">
+          <li><a href="main.html">Главная</a></li>
+          <li><a href="portfolio.html">Портфолио</a>
+            <ul class="submenu">
+              <li><a href="#tex">Техническая документация</a></li>
+              <li><a href="#graph">Компьютерная графика</a>
+                <ul class="submenu">
+                  <li><a href="#rastr">Растровая графика</a></li>
+                  <li><a href="#vek">Векторная графика</a></li>
+                  <li><a href="#inf">Инфографика</a></li>
+                </ul>
+              </li>
+              <li><a href="#pech">Печатная продукция</a></li>
+              <li><a href="#mult">Мультимедийные приложения</a></li>
+              <li><a href="#serv">Сервисы интернета</a></li>
+              <li><a href="#ofis">Офисное оборудование</a></li>
+            </ul>
+          </li>
+          <li><a href="aboutme.html">Страничка об авторе</a></li>
+          <li><a href="#contact">Контакты</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!-- photo / grid -->
+  <div class="container section" id="tex">
+    <div class="row">
+      <div class="col s12 l6 pull-l2 center-align offset-l6">
+        <h4 class="indigo-text text-darken-4">Техническая документация</h4>
+
+        <div class="col s12 l6 push-l2 offset-l1">
+          <a href="img/brif.pdf" download>Открыть Бриф</a>
+        </div>
+        <div class="col s12 l6 push-l2 offset-l1">
+          <a href="img/dogovor.pdf" download>Открыть Договор</a>
+        </div>
+        <div class="col s12 l6 push-l2 offset-l1">
+          <a href="img/tz.pdf" download>Открыть ТЗ</a>
+        </div>
+        <div class="col s12 l9 push-l1 offset-l-2">
+          <img src="img/1.png" alt="maket1" class="responsive-img materialboxed">
+        </div>
+        <div class="col s12 l9 push-l1 offset-l-2">
+          <img src="img/2.png" alt="maket2" class="responsive-img materialboxed">
+        </div>
+        <div class="col s12 l9 push-l1 offset-l-2">
+          <img src="img/3.png" alt="maket3" class="responsive-img materialboxed">
+        </div>
+        <div class="col s12 l9 push-l1 offset-l-2">
+          <img src="img/shapka.png" alt="shapka" class="responsive-img materialboxed">
+          <p>Скрин нарезки</p>
+        </div>
+        <div class="col s12 l9 push-l1 offset-l-2">
+          <img src="img/block.png" alt="block" class="responsive-img materialboxed">
+          <p>Скрин нарезки</p>
+        </div>
+        <div class="col s12 l9 push-l1 offset-l-2">
+          <img src="img/podval.png" alt="podval" class="responsive-img materialboxed">
+          <p>Скрин нарезки</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container section" id="graph">
+    <div class="row">
+      <div class="col s12 l12 pull-l5 center-align offset-l6">
+        <h4 class="indigo-text text-darken-4">Компьютерная графика</h4>
+        <p>это область деятельности, в которой компьютеры наряду со специальным программным обеспечением используются в качестве инструмента как для создания и редактирования изображений, так и для оцифровки визуальной информации, полученной из реального мира, с целью дальнейшей её обработки и хранения.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container section" id="rastr">
+  <div class="row">
+    <div class="col s12 l12 pull-l5 center-align offset-l6">
+      <h4 class="indigo-text text-darken-4">Растровая графика</h4>
+      <div class="col s12 l9 push-l1 offset-l-2">
+        <p>это изображение, представляющее собой сетку пикселей — цветных точек на мониторе, бумаге и других отображающих устройствах.</p>
+      </div>
+      <div class="col s12 l9 push-l1 offset-l-2">
+        <img src="img/lr9.png" alt="lr9" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l9 push-l1 offset-l-2">
+        <img src="img/lr10.png" alt="lr10" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l9 push-l1 offset-l-2">
+        <img src="img/banner.gif" alt="banner" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l9 push-l1 offset-l-2">
+        <img src="img/1.gif" alt="stroka" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l9 push-l1 offset-l-2">
+        <img src="img/lr11.png" alt="lr11" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l9 push-l1 offset-l-2">
+        <img src="img/lr12.png" alt="lr12" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l9 push-l1 offset-l-2">
+        <img src="img/lr12-2.png" alt="lr12-2" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l9 push-l1 offset-l-2">
+        <img src="img/lr13.png" alt="lr13" class="responsive-img materialboxed">
+      </div>
+	  <div class="col s12 l9 push-l1 offset-l-2">
+        <img src="img/lr14.gif" alt="lr14" class="responsive-img materialboxed">
+      </div>
+	  <div class="col s12 l9 push-l1 offset-l-2">
+        <img src="img/lr15-1.gif" alt="lr15-1" class="responsive-img materialboxed">
+      </div>
+	  <div class="col s12 l9 push-l4 offset-l-2">
+        <img src="img/lr15-2.gif" alt="lr15-2" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l9 push-l1 offset-l-2">
+        <img src="img/lr16.png" alt="lr16" class="responsive-img materialboxed">
+      </div>
+    </div>
+    </div>
+</div>
+
+    <div class="container section" id="vek">
+      <div class="row">
+        <div class="col s12 l12 pull-l5 center-align offset-l6">
+          <h4 class="indigo-text text-darken-4">Векторная графика</h4>
+          <div class="col s12 l9 push-l1 offset-l-2">
+            <p>это способ представления объектов и изображений в компьютерной графике, основанный на математическом описании элементарных геометрических объектов, обычно называемых примитивами, таких как: точки, линии, сплайны, кривые, круги и окружности, многоугольники.</p>
+          </div>
+          <div class="col s12 l9 push-l1 offset-l-2">
+            <img src="img/lr17.png" alt="lr17" class="responsive-img materialboxed">
+          </div>
+          <div class="col s12 l9 push-l1 offset-l-2">
+            <img src="img/lr18.png" alt="lr18" class="responsive-img materialboxed">
+          </div>
+          <div class="col s12 l9 push-l1 offset-l-2">
+            <img src="img/lr19.png" alt="lr19" class="responsive-img materialboxed">
+          </div>
+          <div class="col s12 l9 push-l1 offset-l-2">
+            <img src="img/lr20.png" alt="lr20" class="responsive-img materialboxed">
+          </div>
+          <div class="col s12 l9 push-l1 offset-l-2">
+            <img src="img/lr21.png" alt="lr21" class="responsive-img materialboxed">
+          </div>
+          <div class="col s12 l9 push-l1 offset-l-2">
+            <img src="img/lr22.png" alt="lr22" class="responsive-img materialboxed">
+          </div>
+          <div class="col s12 l9 push-l1 offset-l-2">
+            <img src="img/lr23-1.png" alt="lr23-1" class="responsive-img materialboxed">
+          </div>
+          <div class="col s12 l9 push-l1 offset-l-2">
+            <img src="img/lr23-2.png" alt="lr23-2" class="responsive-img materialboxed">
+          </div>
+          <div class="col s12 l9 push-l1 offset-l-2">
+            <img src="img/lr24.png" alt="lr24" class="responsive-img materialboxed">
+          </div>
+          <div class="col s12 l9 push-l1 offset-l-2">
+            <img src="img/lr26.png" alt="lr26" class="responsive-img materialboxed">
+          </div>
+          <div class="col s12 l9 push-l1 offset-l-2">
+            <img src="img/lr28.png" alt="lr28" class="responsive-img materialboxed">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container section" id="inf">
+      <div class="row">
+        <div class="col s12 l12 pull-l5 center-align offset-l6">
+          <h4 class="indigo-text text-darken-4">Инфографика</h4>
+          <div class="col s12 l9 push-l1 offset-l-2">
+            <p>это графический способ подачи информации, данных и знаний, целью которого является быстро и чётко преподносить сложную информацию. Одна из форм графического и коммуникационного дизайна. Спектр её применения огромен: география, журналистика, образование, статистика, технические тексты.</p>
+          </div>
+          <div class="col s12 l9 push-l0 offset-l1">
+            <img src="img/info.png" alt="info" class="responsive-img materialboxed">
+          </div>
+          <div class="col s12 l9 push-l0 offset-l1">
+            <img src="img/lr27-1.png" alt="lr27-1" class="responsive-img materialboxed">
+          </div>
+          <div class="col s12 l9 push-l0 offset-l2">
+            <img src="img/lr27-2.png" alt="lr27-2" class="responsive-img materialboxed">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- parallax -->
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="img/street.jpg" alt="" class="responsive-img">
+    </div>
+  </div>
+
+  <div class="container section" id="pech">
+    <div class="row">
+      <div class="col s12 l4">
+        <img src="img/" alt="" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 pull-l2 center-align offset-l6">
+        <h4 class="indigo-text text-darken-4">Печатная продукция</h4>
+        <p>под печатной продукцией понимаются предназначенные для потребителей издания: книги, брошюры, альбомы, плакаты, буклеты, открытки и иные изделия полиграфического производства независимо от тиража и способа их изготовления, за исключением периодических печатных изданий.</p>
+      </div>
+      <div class="col s12 l6 push-l5 offset-l1">
+        <a href="img/buk.pdf" download>Открыть буклет</a>
+      </div>
+      <div class="col s12 l6 push-l5 offset-l1">
+        <a href="img/jur.pdf" download>Открыть журнал</a>
+      </div>
+      <div class="col s12 l6 push-l3 offset-l1">
+        <img src="img/plak.png" alt="plak" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 push-l3 offset-l1">
+        <img src="img/lr25-1.png" alt="lr25-1" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 push-l3 offset-l1">
+        <img src="img/lr25-2.png" alt="lr25-2" class="responsive-img materialboxed">
+      </div>
+    </div>
+  </div>
+
+  <div class="container section" id="mult">
+  <div class="row">
+    <div class="col s12 l12 pull-l5 center-align offset-l6">
+      <h4 class="indigo-text text-darken-4">Мультимедийные приложения</h4>
+      <div class="col s12 l9 push-l1 offset-l-2">
+        <p>это современный высокотехнологичный инструмент продвижения товаров и услуг. Преимущество мультимедийных приложений в том, что они могут сочетать в себе все виды представления информации: текстовой , графической, звуковой, анимационный.</p>
+      </div>
+      <div class="col s12 l6 push-l0 offset-l1">
+        <iframe width="876" height="404" src="https://www.youtube.com/embed/zcKUDjBGgjU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="col s12 l6 push-l1 offset-l1">
+      <iframe width="732" height="412" src="https://www.youtube.com/embed/V1VBv0vTjYY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+    </div>
+  </div>
+</div>
+
+<div class="container section" id="serv">
+<div class="row">
+  <div class="col s12 l12 pull-l5 center-align offset-l6">
+    <h4 class="indigo-text text-darken-4">Сервисы интернета</h4>
+    <p>Сервисы Интернет — услуги, предоставляемые сетевыми службами пользователям. Наиболее распространенными Интернет-сервисами являются: хранение данных; передача сообщений и блоков данных; электронная и голосовая почта; организация и управление диалогом партнеров; предоставление соединений; видео-сервис.</p>
+  </div>
+  <div class="col s12 l9 push-l2 offset-l1">
+    <img src="img/lr9-1.png" alt="lr9-1" class="responsive-img materialboxed">
+  </div>
+  <div class="col s12 l9 push-l2 offset-l1">
+    <img src="img/s1.png" alt="s1" class="responsive-img materialboxed">
+  </div>
+  <div class="col s12 l9 push-l2 offset-l1">
+    <img src="img/s2.png" alt="s2" class="responsive-img materialboxed">
+    <p align="center">Покупка билетов на ЖД</p>
+  </div>
+  <div class="col s12 l9 push-l2 offset-l1">
+    <img src="img/s3.png" alt="s3" class="responsive-img materialboxed">
+    <p align="center">Покупка билетов на самолет</p>
+  </div>
+  <div class="col s12 l9 push-l2 offset-l1">
+    <img src="img/s4.png" alt="s4" class="responsive-img materialboxed">
+    <p align="center">Запись к врачу</p>
+  </div>
+  <div class="col s12 l9 push-l2 offset-l1">
+    <img src="img/s5.png" alt="s5" class="responsive-img materialboxed">
+  </div>
+  <div class="col s12 l9 push-l2 offset-l1">
+    <img src="img/s6.png" alt="s6" class="responsive-img materialboxed">
+    <p align="center">Покупка билетов в кино</p>
+  </div>
+  <div class="col s12 l9 push-l2 offset-l1">
+    <img src="img/s7.png" alt="s7" class="responsive-img materialboxed">
+    <p align="center">Покупка еды</p>
+  </div>
+  <div class="col s12 l9 push-l2 offset-l1">
+    <img src="img/s8.png" alt="s8" class="responsive-img materialboxed">
+    <p align="center">Покупка билетов на круиз</p>
+  </div>
+</div>
+</div>
+
+<div class="container section" id="ofis">
+<div class="row">
+  <div class="col s12 l12 pull-l5 center-align offset-l6">
+    <h4 class="indigo-text text-darken-4">Офисное оборудование</h4>
+  </div>
+  <div class="col s12 l6 push-l3 offset-l1">
+    <a href="img/html.pdf" download>Открыть отчет</a></br>
+    <a href="img/ОтчетПМ.pdf" download>Открыть отчет по ПМ04</a></br>
+  </div>
+</div>
+</div>
+  <!-- parallax -->
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="img/stars.jpg" alt="" class="responsive-img">
+    </div>
+  </div>
+  <!-- contact form -->
+  <section class="section-container" id="contact">
+    <div class="row">
+      <div class="col s12 l5">
+        <h2 class="indigo-text text-darken-4">Связаться со мной</h2>
+        <p>У вас есть возможность связаться со мной или написать свой отзыв или предложение по улучшению сайта.</p>
+      </div>
+      <div class="col s12 l5 offset-l2">
+        <form action="">
+          <div class="input-field">
+            <i class="material-icons prefix">email</i>
+            <input type="email" id="email">
+            <label for="email">Ваш email</label>
+          </div>
+          <div class="input-field">
+            <i class="material-icons prefix">message</i>
+            <textarea  id="message" class="materialize-textarea"></textarea>
+            <label for="message">Ваше сообщение</label>
+          </div>
+          <div class="input-field center">
+            <button class="btn">Разместить</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- footer -->
+  <footer class="page-footer grey darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 l6">
+          <h5>Кратко обо мне</h5>
+          <p>Меня зовут Радович Святослав, я студент 2 курса электромеханического колледжа. Обучаюсь на специальность Защитника информации. Разработанный мною сайт полностью адаптивен под все девайсы.</p>
+        </div>
+        <div class="col s12 l4 offset-l2">
+          <h5>Контакты</h5>
+          <ul>
+            <li><a href="https://vk.com/radovich79" class="grey-text text-lighten-3">VKontakte</a></li>
+            <li><p>Моя почта: hsrt248@gmail.com</p></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright grey darken-4">
+      <div class="container center-align">&copy; 2021 Разработчик: Радович Святослав</div>
+    </div>
+  </footer>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $(".sidenav").sidenav();
+      $(".modal").modal();
+      $(".materialboxed").materialbox();
+      $(".parallax").parallax();
+      $(".tabs").tabs();
+      $(".datepicker").datepicker({});
+    });
+  </script>
+</body>
+</html>
